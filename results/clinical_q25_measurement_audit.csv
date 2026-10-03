@@ -1,0 +1,23 @@
+Trait,Cohort,N_nonmissing,N_missing,Median_raw,Q25_raw,Q75_raw,Harmonization_note
+Focus Score,BRA,80,0,2.0,1.0,4.0,Clinical focus score; verify histology/source definitions across cohorts.
+Focus Score,MSG,87,0,0.0,0.0,1.0,Clinical focus score; verify histology/source definitions across cohorts.
+Schirmer,BRA,68,12,0.2777777777777778,0.1111111111111111,0.525,make_meta.py normalizes each cohort by its own maximum; compare within-cohort ranks only.
+Schirmer,MSG,82,5,0.31875,0.1625,0.6281249999999999,make_meta.py normalizes each cohort by its own maximum; compare within-cohort ranks only.
+Tear Film Breakup Time,BRA,71,9,0.3636363636363636,0.1818181818181818,0.5,make_meta.py normalizes each cohort by its own maximum; compare within-cohort ranks only.
+Tear Film Breakup Time,MSG,82,5,0.26612903225806445,0.1612903225806451,0.3225806451612903,make_meta.py normalizes each cohort by its own maximum; compare within-cohort ranks only.
+Rose Bengal/van Bijsterveld,BRA,23,57,0.0,0.0,0.5588235294117647,make_meta.py normalizes each cohort by its own maximum; MSG coverage is much higher.
+Rose Bengal/van Bijsterveld,MSG,82,5,0.0975609756097561,0.0,0.3292682926829268,make_meta.py normalizes each cohort by its own maximum; MSG coverage is much higher.
+Salivary Flow,BRA,71,9,0.1,0.06,0.2,BRA and MSG values are converted from separate source tables; verify units before raw-scale pooling.
+Salivary Flow,MSG,87,0,0.1404399999999999,0.04249999999999995,0.2738,BRA and MSG values are converted from separate source tables; verify units before raw-scale pooling.
+C3,BRA,56,24,123.0,105.75,148.0,make_meta.py converts BRA G/L by 100; verify against MSG lab units.
+C3,MSG,82,5,122.225,101.625,142.55,make_meta.py converts BRA G/L by 100; verify against MSG lab units.
+C4,BRA,56,24,23.55,18.275,29.474999999999998,make_meta.py converts BRA G/L by 100; verify against MSG lab units.
+C4,MSG,82,5,23.95,20.5,34.5,make_meta.py converts BRA G/L by 100; verify against MSG lab units.
+IgG,BRA,13,67,1450.0,1260.0,1980.0,Source fields appear to use mg/dL; verify assay harmonization.
+IgG,MSG,65,22,1230.0,1000.0,1570.0,Source fields appear to use mg/dL; verify assay harmonization.
+Lactate Dehydrogenase,BRA,61,19,180.5,165.5,234.5,make_meta.py divides the BRA source by 2; verify conversion and reference ranges.
+Lactate Dehydrogenase,MSG,82,5,181.625,158.5,212.25,make_meta.py divides the BRA source by 2; verify conversion and reference ranges.
+Gamma Fraction,BRA,69,11,1.35,1.17,1.8,Separate source tables; distributional comparability still needs confirmation.
+Gamma Fraction,MSG,74,13,0.875,0.7,1.1,Separate source tables; distributional comparability still needs confirmation.
+B2M Fraction,BRA,54,26,0.23095,0.188,0.2734,Separate source units/conversions; verify before interpreting raw-scale effects.
+B2M Fraction,MSG,74,13,0.3,0.2,0.3,Separate source units/conversions; verify before interpreting raw-scale effects.

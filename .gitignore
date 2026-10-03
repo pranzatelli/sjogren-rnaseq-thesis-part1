@@ -1,0 +1,25 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Controlled or per-sample human data: do not add to a public repository
+/data/raw/
+/data/controlled/
+meta.csv
+all_gene.csv
+all_transcript.csv
+res9.csv
+res9.gen
+*.vcf
+*.vcf.gz
+*.bcf
+*.bam
+*.cram
+quant.sf
+
+# Local editor/OS files
+.DS_Store
+._*
+.Rhistory
+.RData
